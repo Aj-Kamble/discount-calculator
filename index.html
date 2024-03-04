@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Roboto|Poppins">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      body{
+        background-color: whitesmoke;
+      }
+        .main-container{
+            width: 400px;
+            border: 1px solid white;
+            height: 350px;
+            box-shadow: 3px 4px 50px rgb(196, 179, 149);
+            margin: 100px auto;
+            border-radius: 10px;
+           
+        }
+        .child-container{
+            margin-left: 2px;
+        }
+        td{
+            display: block;
+            margin: 5px;
+        }
+      
+        button{
+            margin-left: 8px;
+            border-radius: 15px;
+            width: 380px;
+            padding: 10px;
+           align-items: center;
+           background-color: #4caf50;
+           font-weight: bold;
+          font-size: 20px;
+        }
+        button:hover{
+            background-color: burlywood;
+          
+        }
+        p{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: cadetblue;
+            font-weight: bold;
+           
+        }
+        h3{
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: cadetblue;
+        }
+        input[type="number"], input[type="text"]{
+            width: 380px;
+            color: cadetblue;
+            padding: 10px;
+            border: 2px solid cadetblue;
+            margin-right: 20px;
+        }
+        label{
+            color: cadetblue;
+            font-weight: bold;
+        }
+     
+    </style>
+</head>
+<body>
+   <section class="main-container">
+        <div class="child-container">
+            <h3>DISCOUNT CALCULATOR</h3>
+            <p>Enter the Bill amount and discount in percentage</p>
+            <form action="">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="">Bill Amount:</label></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="">Discount Percentage:</label></td>
+                            <td><input type="number" name="" id=""></td>
+                        </tr>
+                        
+                    </tbody>
+                   
+                </table>
+                <button>Calculate</button>
+            </form>
+            <p id="discount">Total Discount Amount.</p>
+        </div>
+   </section> 
+</body>
+</html>
